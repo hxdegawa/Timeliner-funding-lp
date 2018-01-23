@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="182px" height="130px" viewBox="0 0 182 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Timeliner" transform="translate(-29.000000, -56.000000)">
+            <g id="Group" transform="translate(29.000000, 55.000000)">
+                <path d="M167.396703,57 L29.6787542,57 C23.4227612,57 18.4275357,57 14.6930779,57 C10.95862,57 6.06092739,57 0,57 L14.6930779,73 L181.30529,73 L167.396703,57 Z" id="Combined-Shape" fill="#EAEAEA"></path>
+                <path d="M144.9096,31.4127307 L132.09662,53.664809 L150.443002,53.664809 L155.954562,44.1185064 L144.9096,31.4127307 Z" id="Combined-Shape" fill="#08D9D6"></path>
+                <path d="M131.675675,16.1888413 L110.09662,53.664809 L128.443002,53.664809 L142.734723,28.9108213 L131.675675,16.1888413 Z" id="Combined-Shape" fill="#252A34"></path>
+                <path d="M118.44175,0.964951967 L88.0966203,53.664809 L106.443002,53.664809 L129.514884,13.7031362 L118.44175,0.964951967 Z" id="Combined-Shape" fill="#FF2E63"></path>
+                <path d="M64.6458527,130.619593 L95.9033797,76.335191 L77.5569982,76.335191 L53.5712519,117.879722 L64.6458527,130.619593 Z" id="Combined-Shape" fill="#252A34"></path>
+            </g>
+        </g>
+    </g>
+</svg>

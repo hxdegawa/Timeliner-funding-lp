@@ -1,2 +1,87 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+header
+  div.blur
+  ul
+    h1 Timeliner
+    li: a(href="#") About
+    li: a(href="#") News
+    li: a(href="#") Donate
+main
+  div.logo-wrapper
+    img(src="./images/Timeliner-logo.svg").logo
+    h2 Timeliner
+    p Compact and beautiful multi service timeline.
+    a(href="#"): div.download: span Download
+    
+  div.about-container
+    h2 What is timeliner?
+    p Timeliner is a solution which changes the SNS client, Simple, and Beautiful.
+    
+    div.phone-img-wrapper
+      img(src="https://placehold.jp/225x400.png")
+      
+    div.phone-img-wrapper
+      img(src="https://placehold.jp/225x400.png")
+      
+    div.phone-img-wrapper
+      img(src="https://placehold.jp/225x400.png")
+      
+  div.news-link-container.free-width
+    div.news-link-wrapper
+      a(href="#"): div.news-link
+        h3 We're here!
+        p Finally we have released alpha version of Timeliner!
+        
+      a(href="#"): div.news-link
+        h3 Fund us!
+        p We have started funding at Campfire. please fund us!
+        
+      a(href="#").removal-2: div.news-link
+        h3 Good API
+        p We are looking forward to use paid APIs for good performance.
+        
+      a(href="#").removal-1: div.news-link
+        h3 Enviroment
+        p Timeliner is working with 2 engineers, 1 designer. but we aren't paid from anywhere (;_;)
+        
+  div.news-article-container.free-width
+    div.news-article-wrapper
+      h2 We're here!
+      p Finally we have released alpha version of Timeliner!
+      
+      h2 Fund us!
+      p We have started funding at Campfire. please fund us!
+      
+      h2.removal-2 Good API
+      p.removal-2 We are looking forward to use paid APIs for good performance.
+      
+      h2.removal-1 Enviroment
+      p.removal-1 Timeliner is working with 2 engineers, 1 designer. but we aren't paid from anywhere (;_;)
+      
+  div.contact-container
+    h2 Contact
+    form(name="contact" netlify)
+    
+      div.form-set.half
+        span Name
+        input(name="name")
+        
+      div.form-set.half
+        span Email
+        input(name="email")
+        
+      div.form-set 
+        span Message
+        textarea(name="message")
+        
+      input(type="submit" value="Submit").submit
+        
+  div.donate-container
+    h2 Donate us!
+    p
+      | Were available with funding site, Campfire.
+      br
+      | You can have something as a reward of funding.
+      br
+      | Thank you!
+      
+    a(href="#"): h3 Fund us here

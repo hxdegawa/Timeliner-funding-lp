@@ -1,0 +1,46 @@
+.free-width{
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+@mixin controlled-width{
+  max-width: $break-large;
+  display: block;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+[class*="-container"]{
+  @include controlled-width;
+  
+  h2{
+    position: relative;
+    padding-left: 15px;
+    
+    &:before{
+      content: "";
+      position: absolute;
+      left: 0px;
+      width: 3px;
+      height: 100%;
+      background-color: #ff2e62;
+    }
+  }
+  
+  p{
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: $break-medium){
+  .removal-2{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: $break-small){
+  .removal-1{
+    display: none !important;
+  }
+}
